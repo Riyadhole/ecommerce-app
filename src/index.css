@@ -1,0 +1,158 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #787996;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #223b57;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d1eaff;
+}
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  margin: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-card .product-details {
+  padding: 20px;
+}
+
+.product-card h3 {
+  color: #1d3856;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product-card input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.product-card button {
+  background-color: #13263a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+.cart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cart-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h3 {
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.cart-item p {
+  color: #555;
+  margin: 5px 0;
+}
+
+
+.cart-summary,
+.checkout-summary {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cart-summary p,
+.checkout-summary p {
+  color: #333;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Checkout page styles */
+.checkout {
+  max-width: 600px;
+  margin: 0 auto;
+}
